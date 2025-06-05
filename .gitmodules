@@ -1,0 +1,3 @@
+[submodule "packages/discord_ui"]
+	path = packages/discord_ui
+	url = https://github.com/keito0tada/discord-ui-py.git
