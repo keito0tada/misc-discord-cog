@@ -1,3 +1,5 @@
+import logging
+
 import discord
 from discord import app_commands
 from discord.ext.commands import Bot, Cog
@@ -18,3 +20,4 @@ class MiscCog(Cog):
 
 async def setup(bot: Bot) -> None:
     await bot.add_cog(MiscCog(bot))
+    logging.info("MiscCog loaded.")
